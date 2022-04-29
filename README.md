@@ -30,11 +30,21 @@ shift our focus from scientific literature to current events. You will use the t
 such as OCR, Named Entity Recognition (NER), GeoParsing and the visualization techniques to
 explore and interact with your data.
 1. OCR was first used to extra text out of 
-2. NER was then used to
-3. GeoParsing...
+2. NER was then used to detect the following entities:
+- PERSON: People, including fictional.
+- NORP: Nationalities or religious or political groups.
+- FAC: Buildings, airports, highways, bridges, etc.
+- ORG: Companies, agencies, institutions, etc.
+- GPE: Countries, cities, states.
+- LOC: Non-GPE locations, mountain ranges, bodies of water.
+- PRODUCT: Objects, vehicles, foods, etc. (Not services.)
+- EVENT: Named hurricanes, battles, wars, sports events, etc.
+- DATE: Absolute or relative dates or periods.
+- TIME: Times smaller than a day.
+4. GeoParsing...
+
 
 ## Findings
-blah blah
 
 
 ### Contributors
