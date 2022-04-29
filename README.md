@@ -1,4 +1,4 @@
-## Welcome to Wolrd Events Analysis April 2022
+## Wolrd Events Analysis April 2022
 
 This page illustrates a set of analysis as well as visualizations of the current world events happening in April 2022, specifically focusing on analyzing events in Ukraine. 
 
@@ -30,7 +30,7 @@ Given the [screenshots](https://drive.google.com/file/d/1XhV7EUPRAKlzKHYpjR_LN1W
 
 ### Findings
 
-![image](LOC_pic.html)
+[LOC Mapbox](LOC_pic.html)
 
 ### Contributors
 Team DHKMWY - [Duyen Nguyen](https://github.com/duyen21), Harvey Fu, Kaiyin Chan, My Ta, Weixing Nie, and Yue Zeng.
