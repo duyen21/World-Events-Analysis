@@ -12,9 +12,10 @@ Any discovery would be attributed to understanding events happening in Ukraine.
 
 ### Data processing
 
-Given the [screenshots](https://drive.google.com/file/d/1XhV7EUPRAKlzKHYpjR_LN1W3IjP8l-5U/view) from three news sources CNN, Fox, and Alijazeera, we started to process the data
-1. OCR was first used to extra text out of 
-2. NER was then used to detect the following entities:
+Technologies such as Optical Character Recognition (OCR), Named Entity Recognition (NER), GeoParsing and some visualization are ultilized to analyze the given data.
+
+1. Firstly, the OCR tool Tesseract was used to extract text out of the given screenshots.
+2. Secondly, the NER tool SpaCy was used to detect and extra the following entities out of OCR texts:
 - PERSON: People, including fictional.
 - NORP: Nationalities or religious or political groups.
 - FAC: Buildings, airports, highways, bridges, etc.
@@ -25,7 +26,7 @@ Given the [screenshots](https://drive.google.com/file/d/1XhV7EUPRAKlzKHYpjR_LN1W
 - EVENT: Named hurricanes, battles, wars, sports events, etc.
 - DATE: Absolute or relative dates or periods.
 - TIME: Times smaller than a day.
-4. GeoParsing...
+4. Finally, Python GeoPy was used for geoparsing GPE and LOC entities to illustrate these entities as they appear in the news day-by-day.
 
 
 ### Findings
