@@ -32,8 +32,13 @@ Technologies such as Optical Character Recognition (OCR), Named Entity Recogniti
 ### Findings
 
 [LOC Mapbox](LOC_pic.html)
+![LOC Mapbox](gif/LOC.gif)
+
+[GPE Mapbox](gpe.html)
+![GPE gif](gif/gpe.gif)
+
 
 ### Contributors
-Team DHKMWY - [Duyen Nguyen](https://github.com/duyen21), Harvey Fu, Kaiyin Chan, My Ta, Weixing Nie, and Yue Zeng.
+Team DHKMWY - Duyen Nguyen, Harvey Fu, Kaiyin Chan, My Ta, Weixing Nie, and Yue Zeng.
 
 Our source code can be found at the top right of the page or [here](https://github.com/duyen21/World-Events-Analysis).
