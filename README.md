@@ -46,7 +46,7 @@ explore and interact with your data.
 
 ## Findings
 
-![image](<iframe src="https://giphy.com/embed/J2aI7Pgdyib2Acp184" width="480" height="283" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/J2aI7Pgdyib2Acp184">via GIPHY</a></p>)
+[image](<iframe src="https://giphy.com/embed/J2aI7Pgdyib2Acp184" width="480" height="283" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/J2aI7Pgdyib2Acp184">via GIPHY</a></p>)
 ### Contributors
 Team DHKMWY - [Duyen Nguyen](https://github.com/duyen21), Harvey Fu, Kaiyin Chan, My Ta, Weixing Nie, and Yue Zeng.
 
