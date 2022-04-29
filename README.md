@@ -1,14 +1,15 @@
 # Welcome to Wolrd Events Analysis April 2022
 
-You can use the [editor on GitHub](https://github.com/duyen21/World-Events-Analysis/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This page illustrates a set of analysis as well as visualizations of the current world events happening in April 2022, specifically focusing on analyzing events in Ukraine. 
 
 ## Problem statement
 This page illustrates a set of visualizations and plots to illustrate some
 of the current World events, specifically focusing on analyzing current events in Ukraine. 
 
 ![image](Russia-Ukraine.jpeg)
+
+With limited resources about current events in Ukraine, we use the technologies including OCR, Named Entity Recognition, GeoParsing and the visualization to profoundly analyze the given data. After extracting the text from images, we generate 10 entities by Named Entity Recognition as well as dynamic maps by GeoParsing, which displays a comprehensive understanding about the current world event. 
+
 
 This may include maps of the specific locations of interest,
 illustrations of international relations, etc. You will explore and analyze the entities
