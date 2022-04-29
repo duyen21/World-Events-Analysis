@@ -6,7 +6,7 @@ This page illustrates a set of analysis as well as visualizations of the current
 
 ### Introduction
 
-It is war time in Ukraine, the internet is down and there is not enough proper access to the news sources. Fortunately, a foreign intelligence agency was able to provide [screenshots](https://drive.google.com/file/d/1XhV7EUPRAKlzKHYpjR_LN1W3IjP8l-5U/view) from three news sources CNN, Fox, and Alijazeera. It is important to be able to extract the data from these images and to analyze the events as they unfold day by day. 
+It is war time in Ukraine, the internet is down and there is not enough proper access to the news sources. Fortunately, a foreign intelligence agency was able to provide [screenshots](https://drive.google.com/file/d/1XhV7EUPRAKlzKHYpjR_LN1W3IjP8l-5U/view) from three news sources CNN, Fox, and Alijazeera. Each screenshot contains all the news from a single day from March 2022, sorted chronologically and stacked on top of each other. It is important to be able to extract the data from these images and to analyze the events as they unfold day by day. 
 
 Any discovery would be attributed to understanding events happening in Ukraine. 
 
@@ -30,7 +30,7 @@ Given the [screenshots](https://drive.google.com/file/d/1XhV7EUPRAKlzKHYpjR_LN1W
 
 ### Findings
 
-![image](giphy.gif)
+![image](LOC_pic.html)
 
 ### Contributors
 Team DHKMWY - [Duyen Nguyen](https://github.com/duyen21), Harvey Fu, Kaiyin Chan, My Ta, Weixing Nie, and Yue Zeng.
