@@ -16,17 +16,17 @@ Technologies such as Optical Character Recognition (OCR), Named Entity Recogniti
 
 1. Firstly, the OCR tool Tesseract was used to extract text out of the given screenshots.
 2. Secondly, the NER tool SpaCy was used to detect and extra the following entities out of OCR texts:
-- PERSON: People, including fictional.
-- NORP: Nationalities or religious or political groups.
-- FAC: Buildings, airports, highways, bridges, etc.
-- ORG: Companies, agencies, institutions, etc.
-- GPE: Countries, cities, states.
-- LOC: Non-GPE locations, mountain ranges, bodies of water.
-- PRODUCT: Objects, vehicles, foods, etc. (Not services.)
-- EVENT: Named hurricanes, battles, wars, sports events, etc.
-- DATE: Absolute or relative dates or periods.
-- TIME: Times smaller than a day.
-4. Finally, Python GeoPy was used for geoparsing GPE and LOC entities to illustrate these entities as they appear in the news day-by-day.
+  - PERSON: People, including fictional.
+  - NORP: Nationalities or religious or political groups.
+  - FAC: Buildings, airports, highways, bridges, etc.
+  - ORG: Companies, agencies, institutions, etc.
+  - GPE: Countries, cities, states.
+  - LOC: Non-GPE locations, mountain ranges, bodies of water.
+  - PRODUCT: Objects, vehicles, foods, etc. (Not services.)
+  - EVENT: Named hurricanes, battles, wars, sports events, etc.
+  - DATE: Absolute or relative dates or periods.
+  - TIME: Times smaller than a day.
+4. Finally, Python GeoPy was used for geoparsing GPE and LOC entities to illustrate the frequency of these entities as they appear in the news day-by-day.
 
 
 ### Findings
