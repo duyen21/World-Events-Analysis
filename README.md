@@ -1,25 +1,3 @@
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image]
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-(src)
-```
-
-
 # Welcome to Wolrd Events Analysis April 2022
 
 You can use the [editor on GitHub](https://github.com/duyen21/World-Events-Analysis/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
@@ -30,7 +8,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 This page illustrates a set of visualizations and plots to illustrate some
 of the current World events, specifically focusing on analyzing current events in Ukraine. 
 
-![image](https://github.com/duyen21/World-Events-Analysis/blob/6116afeeb9cae655ae1e7eef90ee389dbbfc4eaf/Russia-Ukraine.jpeg)
+![image](Russia-Ukraine.jpeg)
 
 This may include maps of the specific locations of interest,
 illustrations of international relations, etc. You will explore and analyze the entities
