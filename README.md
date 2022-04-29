@@ -30,7 +30,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 This page illustrates a set of visualizations and plots to illustrate some
 of the current World events, specifically focusing on analyzing current events in Ukraine. 
 
-![https://github.com/duyen21/World-Events-Analysis/blob/6116afeeb9cae655ae1e7eef90ee389dbbfc4eaf/Russia-Ukraine.jpeg]
+![image](https://github.com/duyen21/World-Events-Analysis/blob/6116afeeb9cae655ae1e7eef90ee389dbbfc4eaf/Russia-Ukraine.jpeg)
 
 This may include maps of the specific locations of interest,
 illustrations of international relations, etc. You will explore and analyze the entities
