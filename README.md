@@ -46,7 +46,14 @@ of the few people who can do it successfully. World peace depends on you.
 
 ## Data processing
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/duyen21/World-Events-Analysis/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The objective of this assignment is to build upon the great analytic work and data science
+work you did exploring semantic forensics and scientific literature. This time, we will
+shift our focus from scientific literature to current events. You will use the technologies
+such as OCR, Named Entity Recognition (NER), GeoParsing and the visualization techniques to
+explore and interact with your data.
+1. OCR was first used to extra text out of 
+2. NER was then used to
+3. GeoParsing...
 
 ## Findings
 blah blah
@@ -55,4 +62,4 @@ blah blah
 ### Contributors
 Team DHKMWY - [Duyen Nguyen](https://github.com/duyen21), Harvey Fu, Kaiyin Chan, My Ta, Weixing Nie, and Yue Zeng.
 
-Our source code is [here](https://github.com/duyen21/World-Events-Analysis)
+Our source code can be found at the top right of the page or [here](https://github.com/duyen21/World-Events-Analysis).
