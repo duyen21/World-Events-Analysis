@@ -51,8 +51,7 @@ We use Mapbox for plotting a dynamic graph where the user can change its date an
 <br>
   <br>
   
-  |[LOC Mapbox](LOC_pic.html)|
-  |---|
+  [LOC Mapbox](LOC_pic.html)
   <p align="right">
   <img width="600" src="gif/LOC.gif">    
   </p>  
@@ -66,14 +65,11 @@ We use Mapbox for plotting a dynamic graph where the user can change its date an
 <br>  
   <br>
   
-  |[GPE Mapbox](gpe.html)|
-  |---|
+  [GPE Mapbox](gpe.html)
   <p align="right">
   <img width="600" src="gif/gpe.gif">    
   </p>  
 </details>
-</details>
-
 
 ---
 ### Contributors
