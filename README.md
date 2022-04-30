@@ -30,8 +30,7 @@ Technologies such as Optical Character Recognition (OCR), Named Entity Recogniti
 4. Finally, Python GeoPy was used for geoparsing GPE and LOC entities to illustrate the frequency of these entities as they appear in the news day-by-day.
 
 ---
-## Findings
-### Distributions of the entities pulled from spaCy
+## Distributions of the entities pulled from spaCy
 <details>
 <summary>From all news sources</summary>
 <br>
@@ -75,7 +74,7 @@ Technologies such as Optical Character Recognition (OCR), Named Entity Recogniti
 </details>
 
 ---
-### GeoParsing with LOC and GPE entities 
+## GeoParsing with LOC and GPE entities 
 
 We use Mapbox for plotting a dynamic graph where the user can change its date and zoom in for details. We created two different visualizations and used LOC, GPE data separately. By separating LOC and GPE data, we can have a better understanding of urban areas and non-urban areas. 
 
