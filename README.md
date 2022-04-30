@@ -4,14 +4,14 @@ This page illustrates a set of analysis as well as visualizations of the current
 
 ![image](Russia-Ukraine.jpeg)
 
-## Introduction
+### Introduction
 
 It is war time in Ukraine, the internet is down and there is not enough proper access to the news sources. Fortunately, a foreign intelligence agency was able to provide [screenshots](https://drive.google.com/file/d/1XhV7EUPRAKlzKHYpjR_LN1W3IjP8l-5U/view) from three news sources CNN, Fox, and Alijazeera. Each screenshot contains all the news from a single day from March 2022, sorted chronologically and stacked on top of each other. It is important to be able to extract the data from these images and to analyze the events as they unfold day by day. 
 
 Any discovery would be attributed to understanding events happening in Ukraine. 
 
 ---
-## Data processing
+### Data processing
 
 Technologies such as Optical Character Recognition (OCR), Named Entity Recognition (NER), GeoParsing and some visualization are ultilized to analyze the given data.
 
@@ -30,10 +30,7 @@ Technologies such as Optical Character Recognition (OCR), Named Entity Recogniti
 4. Finally, Python GeoPy was used for geoparsing GPE and LOC entities to illustrate the frequency of these entities as they appear in the news day-by-day.
 
 ---
-## Distributions of the entities pulled from spaCy
-<details>
-<summary>From all news sources</summary>
-<br>
+### Distributions of the entities pulled from spaCy from all news sources
   
   <p align="center">
   <img width="600" src="plot/all_plot/person.png">    
@@ -67,14 +64,7 @@ Technologies such as Optical Character Recognition (OCR), Named Entity Recogniti
 
   Overall, the results for distribution throughout all newsource are within our anticipation, with minimal outlier results. The distribution allows us to see how the content is distributed and whether some phrases are more preferred than others. 
 
-</details>
-
-<details>
-<summary>Between the news sources</summary>
-</details>
-
----
-## GeoParsing with LOC and GPE entities 
+### GeoParsing with LOC and GPE entities 
 
 We use Mapbox for plotting a dynamic graph where the user can change its date and zoom in for details. We created two different visualizations and used LOC, GPE data separately. By separating LOC and GPE data, we can have a better understanding of urban areas and non-urban areas. 
 
