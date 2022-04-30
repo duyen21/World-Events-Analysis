@@ -76,8 +76,7 @@ We use Mapbox for plotting a dynamic graph where the user can change its date an
   <img width="600" src="gif/LOC.gif">    
   </p>  
 
-**GPE entity**
-...
+**GPE entity** data points are concentrated in Europe. The reason for that could partly be that the density of countries is high in Europe, while Russia, which also had high occurrences in the dataset, is represented by only a dot on the map. On the other hand, as Russia declared a war on Ukraine, it is intuitive that the media focuses on European countries, especially those in NATO. Most of the data points are capitals or large cities.
   
 [GPE Mapbox](gpe.html)
   
