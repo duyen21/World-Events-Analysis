@@ -78,34 +78,24 @@ Technologies such as Optical Character Recognition (OCR), Named Entity Recogniti
 
 We use Mapbox for plotting a dynamic graph where the user can change its date and zoom in for details. We created two different visualizations and used LOC, GPE data separately. By separating LOC and GPE data, we can have a better understanding of urban areas and non-urban areas. 
 
-<details>
-<summary>LOC entity</summary>
-<br>
-  LOC data focused on non-urban regions. These regions were probably high active border regions and news expose of the battle frontline. According to our visualization, CNN was highly focusing on the black sea and eastern Ukraine. It makes perfect sense since Russia began its invasion at the end of February. Black Sea and eastern Ukraine(regions near Russia) were where the war began. Then, situations started to shift towards the mainland/central regions of Ukraine. Kyiv (the capital), northern Ukraine regions and some western regions all appeared on the map at one time. It was also the same time when Russia declared a total war on Ukraine. While we moved towards the end of March, the LOC data seemed to be contained in regions around Kyiv. In fact, Russia did not achieve any further invasion ever since they arrived in Kyiv. The war became chaotic and difficult for Russia to continue their march. 
-<br>
-  <br>
-  
-  [LOC Mapbox](LOC_pic.html)
-  
+**LOC entity** focused on non-urban regions. These regions were probably high active border regions and news expose of the battle frontline. According to our visualization, CNN was highly focusing on the black sea and eastern Ukraine. It makes perfect sense since Russia began its invasion at the end of February. Black Sea and eastern Ukraine(regions near Russia) were where the war began. Then, situations started to shift towards the mainland/central regions of Ukraine. Kyiv (the capital), northern Ukraine regions and some western regions all appeared on the map at one time. It was also the same time when Russia declared a total war on Ukraine. While we moved towards the end of March, the LOC data seemed to be contained in regions around Kyiv. In fact, Russia did not achieve any further invasion ever since they arrived in Kyiv. The war became chaotic and difficult for Russia to continue their march. The detail
+
+|[LOC Mapbox](LOC_pic.html)|
+|---|
+
   <p align="right">
   <img width="600" src="gif/LOC.gif">    
   </p>  
-</details>
 
-
-<details>
-<summary>GPE entity</summary>
-<br>
-  blah blah   
-<br>  
-  <br>
+**GPE entity**
+...
   
-  [GPE Mapbox](gpe.html)
+|[GPE Mapbox](gpe.html)|
+|---|
   
   <p align="right">
   <img width="600" src="gif/gpe.gif">    
   </p>  
-</details>
 
 ---
 ### Contributors
