@@ -1,17 +1,17 @@
-## Wolrd Events Analysis April 2022
+# Wolrd Events Analysis April 2022
 
 This page illustrates a set of analysis as well as visualizations of the current world events happening in April 2022, specifically focusing on analyzing events in Ukraine. 
 
 ![image](Russia-Ukraine.jpeg)
 
-### Introduction
+## Introduction
 
 It is war time in Ukraine, the internet is down and there is not enough proper access to the news sources. Fortunately, a foreign intelligence agency was able to provide [screenshots](https://drive.google.com/file/d/1XhV7EUPRAKlzKHYpjR_LN1W3IjP8l-5U/view) from three news sources CNN, Fox, and Alijazeera. Each screenshot contains all the news from a single day from March 2022, sorted chronologically and stacked on top of each other. It is important to be able to extract the data from these images and to analyze the events as they unfold day by day. 
 
 Any discovery would be attributed to understanding events happening in Ukraine. 
 
 ---
-### Data processing
+## Data processing
 
 Technologies such as Optical Character Recognition (OCR), Named Entity Recognition (NER), GeoParsing and some visualization are ultilized to analyze the given data.
 
@@ -30,17 +30,52 @@ Technologies such as Optical Character Recognition (OCR), Named Entity Recogniti
 4. Finally, Python GeoPy was used for geoparsing GPE and LOC entities to illustrate the frequency of these entities as they appear in the news day-by-day.
 
 ---
-### Findings
-#### Distributions of the entities pulled from spaCy
+## Findings
+### Distributions of the entities pulled from spaCy
 <details>
-<summary>"PERSON" entity from all news source**s</summary>
+<summary>From all news sources</summary>
 <br>
-  For the “PERSON” entity, we recognize that the top 20 most mentioned are Vladimir Putin, Joe Biden, Volodymyr Zelensky, Olden, Kherson, John Kirby, Kyiv,   Antony Blinken, Kharkiv, Sullivan, and Boris Johnson. Notice that the total number does not equal to 20, and this is because of similar repeated words,     such as Biden and Joe Biden. What interests us is that even though the event revolves around Ukraine and Russia, the second most mentioned person is Joe    Biden, which shows the significance of the US in politics and the news preference.
   
-    ![all_plot_person](plot/all_plot/person.png) 
+  <p align="center">
+  <img width="600" src="plot/all_plot/person.png">    
+  </p> 
+  
+  **“PERSON” entity:** we recognize that the top 20 most mentioned are Vladimir Putin, Joe Biden, Volodymyr Zelensky, Olden, Kherson, John Kirby, Kyiv, Antony Blinken, Kharkiv, Sullivan, and Boris Johnson. Notice that the total number does not equal to 20, and this is because of similar repeated words, such as Biden and Joe Biden. What interests us is that even though the event revolves around Ukraine and Russia, the second most mentioned person is Joe Biden, which shows the significance of the US in politics and the news preference.
+  
+  <p align="center">
+  <img width="600" src="plot/all_plot/org.png">    
+  </p> 
+  
+  **“ORG” entity:** the top 20 distribution is divided into 3 categories: news source (CNN, Fox News, Al Jazeera), buildings (The White House, Kremlin, Pentagon), and institutions (NATO, EU, UN). GMT is ranked 2nd in the distribution, which really surprises us as GMT is the mean solar time. GMT should not be in the “ORG” entity, in our opinion, so this notion is beyond our expectations. 
+
+  <p align="center">
+  <img width="600" src="plot/all_plot/norp.png">    
+  </p> 
+  
+  **“NORP” entity:** the majority of the distribution list revolves around Ukrainian and Russian. Russian are mentioned 3 times more frequent than Ukrainian, which might suggest the news’ preference and content. Other nationalities mentioned are European and Chinese. Two odd names appeared are Republican and Western, which do not clearly indicate the nationality. 
+
+  <p align="center">
+  <img width="600" src="plot/plot/all_plot/loc.png">    
+  </p>  
+  
+  **“LOC” entity:** the results are not as we anticipated. In the distribution list, we see many continent names with the addition to some of the seas and rivers, most of them are within the targeted areas. However, there are some peculiar results, such as “West”, “Mars”, “Zelenskyy”, and “Allies”. Our first guess is that these results were more like outliers, but “West” is ranked 2nd in the distribution. After seeing this result, we think the code will produce better results if we add bigrams and trigrams.
+
+  <p align="center">
+  <img width="600" src="plot/all_plot/gpe.png">    
+  </p>   
+  
+  **“GPE” entity:** the results are as expected. The top countries in the list are Ukraine, Russia, and the US, along with cities such as Moscow, Kyiv, and Chernobyl. If the distribution is a bit off in the “NORP” entity, the one in the “GPE” appears much more balanced as Russia and Ukraine are mentioned quite equally. 
+
+  Overall, the results for distribution throughout all newsource are within our anticipation, with minimal outlier results. The distribution allows us to see how the content is distributed and whether some phrases are more preferred than others. 
+
 </details>
 
-#### GeoParsing with LOC and GPE entities 
+<details>
+<summary>Between the news sources</summary>
+</details>
+
+---
+### GeoParsing with LOC and GPE entities 
 
 We use Mapbox for plotting a dynamic graph where the user can change its date and zoom in for details. We created two different visualizations and used LOC, GPE data separately. By separating LOC and GPE data, we can have a better understanding of urban areas and non-urban areas. 
 
