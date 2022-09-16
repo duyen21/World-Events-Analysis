@@ -1,4 +1,4 @@
-# Wolrd Events Analysis April 2022
+# [Wolrd Events Analysis April 2022](https://duyen21.github.io/World-Events-Analysis/)
 
 This page illustrates a set of analysis as well as visualizations of the current world events happening in April 2022, specifically focusing on analyzing events in Ukraine. 
 
